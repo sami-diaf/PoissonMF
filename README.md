@@ -1,0 +1,1 @@
+Application example of Poisson-based topic model, as given in poismf package. Initially designed for recommender systems, but could also be applied to topics models, as an alternative to standard Latent Dirichlet Allocations.
