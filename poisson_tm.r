@@ -1,10 +1,8 @@
 
-
 # Poisson Factorization
 # Topic models with Poisson distribution (alternative to Poisson Hierarchical Models)
 
 rm(list=ls()) # cleaning memory
-
 
 library(dplyr)
 library(quanteda)
@@ -43,10 +41,8 @@ vdfm <- dfm(toks_sotu) %>%
 
 mat <- quanteda::convert(vdfm, to="matrix") %>% Matrix::Matrix()
 
-
 ## good quality, but slow
 model <- poismf(k=5, mat, method="tncg")
-
 
 str(model)
 
