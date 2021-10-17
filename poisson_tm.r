@@ -18,7 +18,7 @@ library(Matrix)
 
 options(stringsAsFactors = F)
 
-# example in quanteda
+# example in quanteda (State Of The Union Speeches)
 
 data_corpus_sotu <- readRDS(url("https://quanteda.org/data/data_corpus_sotu.rds"))
 
